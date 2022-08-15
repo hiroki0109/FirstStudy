@@ -14,7 +14,7 @@ class _NextPageState extends State<NextPage> {
       appBar: AppBar(),
       body: Container(
         child: Card(
-          color: Colors.amber,
+          color: Colors.blue,
         ),
       ),
     );
