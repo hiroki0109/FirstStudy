@@ -60,8 +60,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 title: Text(titleList[index]),
                 onTap: () {
                   ///画面遷移の記述
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => NextPage()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => NextPage(titleList[index])));
                 },
               ),
               Divider(),
